@@ -39,10 +39,10 @@ body {
     align-items: center;
 }
 .logo-image {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
-.logo-content h2 {
+.logo-content p {
     font-size: 20px;
 }
 .navlist {
@@ -65,16 +65,17 @@ body {
 }
 .home-content h1 {
     font-size: 40px;
+    font-weight: 300;
 }
-.home-content h3 {
+.home-content p {
     font-size: 20px;
     color: #e8e0d8;
     padding-top: 20px;
 }
-.home-content h3 span {
+.home-content p span {
     color: #f8f8f8;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 
@@ -112,19 +113,21 @@ body {
     color: #aaa;
     padding-top: 40px;
     padding-bottom: 10px;
+    font-weight: 300;
 }
 .icon-container {
     display: flex;
     align-items: center;
     padding-top: 30px;
 }
-.shapes-container h3 {
+.shapes-container p {
     font-size: 20px;
     color: #aaa;
 }
-.shapes-container h3 span {
-    font-size: 25px;
-    color: #928e8e;
+.shapes-container p span {
+    font-size: 20px;
+    color: #7c7878;
+    font-weight: 600;
 }
 .line-icon {
     width: 100%;
@@ -143,4 +146,374 @@ body {
 }
 .shapes-image {
     padding-inline: 60px;
+}
+
+
+#about-health {
+    background-color: #7ba06a;
+    padding-bottom: 60px;
+    position: relative;
+    overflow: hidden;
+}
+.health-container {
+    text-align: center;
+}
+.health-content h1 {
+    font-size: 40px;
+    font-weight: 300;
+    padding-top: 50px;
+    color: #f3f0f0;
+}
+.health-content h1 span {
+    font-size: 45px;
+    font-weight: 400;
+}
+.health-content p {
+    font-size: 20px;
+    color: #e2dfdf;
+    padding-top: 20px;
+    font-weight: 300;
+}
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.health-image {
+    padding-block: 50px;
+}
+.circle1 {
+    position: absolute;
+    transform: translate(-160px,220px);
+    font-size: 35px;
+    color: #f0f0f0;
+    text-shadow: 1px 2px 10px #fff;
+}
+.circle2 {
+    position: absolute;
+    transform: translate(-80px,150px);
+    font-size: 35px;
+    color: #f0f0f0;
+    text-shadow: 1px 2px 10px #fff;
+}
+.circle3 {
+    position: absolute;
+    transform: translate(20px,170px);
+    font-size: 35px;
+    color: #f0f0f0;
+    text-shadow: 1px 2px 10px #fff;
+}
+.circle4 {
+    position: absolute;
+    transform: translate(130px,200px);
+    font-size: 35px;
+    color: #f0f0f0;
+    text-shadow: 1px 2px 10px #fff;
+}
+.image-details {
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+    padding-inline: 400px;
+}
+.dotted-lines {
+    text-align: center;
+}
+.dotted-line1 {
+    border-right: 1px dotted #fff;
+    height: 159px;
+    position: absolute;
+    top: 410px;
+    left: 530px;
+    transform: rotatez(25deg);
+    transform-origin: top;
+}
+.dotted-line2 {
+    border-right: 1px dotted #fff;
+    height: 215px;
+    position: absolute;
+    top: 340px;
+    left: 610px;
+    transform: rotatez(357deg);
+    transform-origin: top;
+}
+.dotted-line3 {
+    border-right: 1px dotted #fff;
+    height: 205px;
+    position: absolute;
+    top: 360px;
+    right: 638px;
+    transform: rotatez(342deg);
+    transform-origin: top;
+}
+.dotted-line4 {
+    border-right: 1px dotted #fff;
+    height: 180px;
+    position: absolute;
+    top: 390px;
+    right: 530px;
+    transform: rotatez(335deg);
+    transform-origin: top;
+}
+.health-line {
+    width: 50px;
+    height: 2px;
+    border: 10px;
+    background-color: #ccc7c1;
+    margin-bottom: 15px;
+}
+.image-details .cal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image-details .carhyd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image-details .protein {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image-details .fat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gram {
+    font-size: 40px;
+    font-weight: 300;
+    color: #e2dfdf;
+}
+.image-details h3 {
+    font-size: 20px;
+    font-weight: 200;
+    padding-top: 6px;
+    color: #e7e4e1;
+}
+.bg-image-1 {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    transform: translate(-800px,-150px);
+    filter: blur(5px);
+}
+.bg-image-2 {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    transform: translate(500px,-150px);
+    filter: blur(5px);
+}
+
+
+#structure {
+    background-color: #f1dfb7;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+.structure-container {
+    text-align: center;
+}
+.structure-text h1 {
+    font-size: 40px;
+    font-weight: 300;
+    color: #9e8545;
+    padding-top: 50px;
+}
+.structure-text p {
+    font-size: 20px;
+    color: #b19658;
+    padding-top: 20px;
+    font-weight: 300;
+}
+.structure-text p span {
+    font-size: 22px;
+    font-weight: 600;
+    color: #9c7d2d;
+}
+.structure-text p span sup {
+    font-size: 10px;
+}
+.structure-image {
+    display: flex;
+    justify-content: center;
+    padding-block: 100px;
+}
+.line-icon-main {
+    border-right: 1px solid #9e8545;
+    height: 360px;
+    position: absolute;
+    transform: translate(0px,-35px);
+}
+.line-icon1 {
+    border-right: 1px solid #9e8545;
+    height: 15px;
+    position: absolute;
+    transform: translate(-3px,-32px);
+}
+.line-icon2 {
+    border-right: 1px solid #9e8545;
+    height: 8px;
+    position: absolute;
+    transform: translate(-6px,-28px);
+}
+.line-icon3 {
+    border-right: 1px solid #9e8545;
+    height: 15px;
+    position: absolute;
+    transform: translate(3px,-32px);
+}
+.line-icon4 {
+    border-right: 1px solid #9e8545;
+    height: 8px;
+    position: absolute;
+    transform: translate(6px,-28px);
+}
+.line-icon5 {
+    border-right: 1px solid #9e8545;
+    height: 15px;
+    position: absolute;
+    transform: translate(-3px,307px);
+}
+.line-icon6 {
+    border-right: 1px solid #9e8545;
+    height: 10px;
+    position: absolute;
+    transform: translate(-6px,309px);
+}
+.line-icon7 {
+    border-right: 1px solid #9e8545;
+    height: 15px;
+    position: absolute;
+    transform: translate(3px,307px);
+}
+.line-icon8 {
+    border-right: 1px solid #9e8545;
+    height: 10px;
+    position: absolute;
+    transform: translate(6px,309px);
+}
+.str-bg-image1 {
+    position: absolute;
+    transform: translate(-680px,-269px);
+}
+.str-bg-image2 {
+    position: absolute;
+    transform: translate(340px,-185px);
+}
+
+
+#review {
+    background-color: #ffffff;
+    overflow: hidden;
+    position: relative;
+}
+.review-container {
+    text-align: center;
+}
+.review-heading h1 {
+    font-size: 40px;
+    font-weight: 300;
+    padding-top: 50px;
+    color: grey;
+}
+.review-content {
+    display: flex;
+    justify-content: center;
+    padding-block: 50px;
+    align-items: center;
+}
+.review-text1 {
+    position: absolute;
+    transform: translate(-710px,0px);
+    color: rgb(168, 165, 165);
+    opacity: 0.5;
+}
+.review-text1 p {
+    font-size: 20px;
+}
+.lesser-icon {
+    font-size: 60px;
+    color: rgb(168, 165, 165);
+    opacity: 0.6;
+}
+.review-text2 {
+    padding-block: 150px;
+    color: rgb(168, 165,165);
+    padding-inline: 80px;
+}
+.review-text2 p {
+    font-size: 20px;
+}
+.greater-icon {
+    font-size: 60px;
+    color: rgb(168, 165, 165);
+    opacity: 0.6;
+}
+.review-text3 {
+    position: absolute;
+    transform: translate(700px,0px);
+    color: rgb(168, 165, 165);
+    opacity: 0.5;
+}
+.review-text3 p {
+    font-size: 20px;
+}
+.review-line {
+    border-top: 1px solid rgb(168, 165,165);
+    width: 100%;
+}
+.review-icons {
+    display: flex;
+    padding-block: 10px;
+    align-items:center;
+}
+.review-name {
+    color: rgb(110, 110, 110);
+    font-size: 15px;
+}
+.review-name span {
+    color: rgb(168, 165, 165);
+    font-size: 14px;
+}
+
+.review-bg-1 {
+    position: absolute;
+    transform: translate(-550px,30px);
+}
+.review-bg-2 {
+    position: absolute;
+    transform: translate(-700px,-120px);
+}
+.review-bg-3 {
+    position: absolute;
+    transform: translate(-400px,-100px);
+}
+.review-bg-4 {
+    position: absolute;
+    transform: translate(-400px,80px);
+}
+.review-bg-5 {
+    position: absolute;
+    transform: translate(550px,-30px);
+}
+.review-bg-6 {
+    position: absolute;
+    transform: translate(500px,120px);
+}
+.review-bg-7 {
+    position: absolute;
+    transform: translate(350px,50px);
+}
+.review-bg-8 {
+    position: absolute;
+    transform: translate(400px,-80px);
 }
