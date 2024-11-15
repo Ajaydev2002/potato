@@ -46,7 +46,8 @@
                 <div><img src="./IMAGES/SEC-2 IMAGE 1.png" class="bg-image4"></div>
 
                 <h1>Different shapes and sizes</h1>
-                <p><span>Potato<sup>TM</sup></span> comes in many different uniqe shapes and sizes.<br>Find the one that fits your
+                <p><span>Potato<sup>TM</sup></span> comes in many different uniqe shapes and sizes.<br>Find the one that
+                    fits your
                     personal perference</p>
                 <div class="icon-container">
                     <div class="line-icon"></div>
@@ -145,8 +146,10 @@
                     <div class="line-icon8"></div>
                     <div><img src="./IMAGES/SEC-4 IMAGE 2.png" class="structure-image2"></div>
                 </div>
-                <div><img src="./IMAGES/SEC-4 BG 2.png" class="str-bg-image1"></div>
-                <div><img src="./IMAGES/SEC-4 BG 1.png" class="str-bg-image2"></div>
+                <div class="structure-bg-images">
+                    <img src="./IMAGES/SEC-4 BG 2.png" class="str-bg-image1">
+                    <img src="./IMAGES/SEC-4 BG 1.png" class="str-bg-image2">
+                </div>
             </div>
         </section>
 
@@ -294,8 +297,10 @@
         <section id="footer">
             <div class="footer-container">
                 <div class="copy-rights">
-                    <p>since you came here to read this, have one <img src="./IMAGES/LOGO.png" class="footer-image"> for free!</p>
-                    <p>copyrights <i class="fa-regular fa-copyright"></i> 2015 <span>potato <sup>TM</sup></span>All rights reserved.</p>
+                    <p>since you came here to read this, have one <img src="./IMAGES/LOGO.png" class="footer-image"> for
+                        free!</p>
+                    <p>copyrights <i class="fa-regular fa-copyright"></i> 2015 <span>potato <sup>TM</sup></span>All
+                        rights reserved.</p>
                 </div>
                 <div class="footer-navlist">
                     <a href="#">HISTORY</a>
@@ -306,6 +311,15 @@
             </div>
         </section>
     </div>
+
+    <script>
+        const navBtn = document.querySelector('.menu-btn')
+        const navList = document.querySelector('.navlist')
+
+        navBtn.addEventListener('click', function () {
+            navList.classList.toggle("active");
+        });
+    </script>
 </body>
 
 </html>
